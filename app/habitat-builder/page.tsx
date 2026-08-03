@@ -339,11 +339,12 @@ export default function HabitatBuilderPage() {
       for butterflies, birds, bees, and desert wildlife.
     </FieldNote>
 
-    <button
-      className="mt-10 w-full rounded-xl bg-green-700 p-5 text-white text-xl font-semibold hover:bg-green-800 transition"
-    >
-      🌿 Build My Habitat Plan
-    </button>
+<button
+  disabled
+  className="mt-10 w-full rounded-xl bg-green-700 p-5 text-white text-xl font-semibold opacity-70 cursor-not-allowed"
+>
+  🌿 Habitat Plans Coming Soon
+</button>
 
   </>
 )}
