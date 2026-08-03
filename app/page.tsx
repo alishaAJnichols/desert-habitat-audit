@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-amber-50 text-stone-900">
@@ -8,18 +9,21 @@ export default function Home() {
         </p>
 
         <h1 className="text-6xl font-bold mt-6">
-          🌵 🦋 Habitat Builder
+          🌵 Desert Habitat Audit
         </h1>
 
         <p className="text-xl mt-8 max-w-3xl mx-auto text-stone-600 leading-relaxed">
-          Answer a few simple questions and receive ideas for creating beautiful habitat using native Sonoran Desert plants.
-
-Support wildlife, conserve water, and help restore our desert ecosystem.
+          Helping every yard become part of the Sonoran Desert ecosystem.
+          Discover how native plants can support wildlife, conserve water,
+          and create beautiful, resilient landscapes.
         </p>
 
-        <button className="mt-12 rounded-xl bg-green-700 px-8 py-4 text-xl font-semibold text-white hover:bg-green-800 transition">
-          🌿 Build My Habitat
-        </button>
+<Link
+  href="/habitat-builder"
+  className="inline-block mt-12 rounded-xl bg-green-700 px-8 py-4 text-xl font-semibold text-white hover:bg-green-800 transition"
+>
+  Begin Your Habitat Journey
+</Link>
 
         <div className="mt-20 grid gap-6 md:grid-cols-4">
 
@@ -58,16 +62,6 @@ Support wildlife, conserve water, and help restore our desert ecosystem.
         </div>
 
       </section>
-    <footer className="mt-20 text-center text-stone-600">
-  <p className="text-lg italic">
-    Every yard can become part of the Sonoran Desert ecosystem.
-  </p>
-
-  <p className="mt-2 text-sm">
-    Created in support of the Desert Survivors mission of restoration,
-    education, and community.
-  </p>
-</footer>
-</main>
+    </main>
   );
 }
