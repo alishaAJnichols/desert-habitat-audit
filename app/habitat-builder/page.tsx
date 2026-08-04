@@ -32,6 +32,10 @@ export default function HabitatBuilderPage() {
   Step {step} of 5
 </p>
 
+<p className="mt-2 text-stone-600 italic">
+  🌵 Thank you for helping restore habitat in the Sonoran Desert.
+</p>
+
 <div
   className="bg-green-700 h-3 rounded-full transition-all duration-500"
   style={{ width: `${step * 20}%` }}
@@ -147,6 +151,17 @@ export default function HabitatBuilderPage() {
   }`}
 >
   🐦 Birds
+</button>
+
+<button
+  onClick={() => setSelectedWildlife("Bats")}
+  className={`w-full rounded-xl border p-5 text-left transition ${
+    selectedWildlife === "Bats"
+      ? "bg-green-700 text-white"
+      : "bg-white hover:bg-green-50"
+  }`}
+>
+  🦇 Bats (Night Pollinators & Insect Helpers)
 </button>
 
 <button
