@@ -32,13 +32,13 @@ export default function HabitatBuilderPage() {
   Step {step} of 5
 </p>
 
-<p className="mt-2 text-stone-600 italic">
+<p className="mt-2 text-center text-stone-600 italic">
   🌵 Thank you for helping restore habitat in the Sonoran Desert.
 </p>
 
-<div className="w-full bg-stone-200 rounded-full h-3 mt-3 mb-10">
+<div className="w-full bg-stone-200 rounded-full h-4 mt-5 mb-12">
   <div
-    className="bg-green-700 h-3 rounded-full transition-all duration-500"
+    className="bg-green-700 h-4 rounded-full transition-all duration-500"
     style={{ width: `${step * 20}%` }}
   ></div>
 </div>
