@@ -30,7 +30,7 @@ export default function Home() {
   href="/habitat-builder"
   className="inline-block mt-12 rounded-xl bg-green-700 px-8 py-4 text-xl font-semibold text-white hover:bg-green-800 transition"
 >
-  Begin Your Habitat Journey
+ 🌿 Build My Habitat
 </Link>
 
         <div className="mt-20 grid gap-6 md:grid-cols-4">
