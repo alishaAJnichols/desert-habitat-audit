@@ -12,11 +12,19 @@ export default function Home() {
   🌵 Habitat Builder
 </h1>
 
-        <p className="text-xl mt-8 max-w-3xl mx-auto text-stone-600 leading-relaxed">
-          Helping every yard become part of the Sonoran Desert ecosystem.
-          Discover how native plants can support wildlife, conserve water,
-          and create beautiful, resilient landscapes.
-        </p>
+       <p className="text-xl mt-8 max-w-3xl mx-auto text-stone-600 leading-relaxed">
+  Habitat belongs to everyone.
+  <br /><br />
+  A window ledge can support life.
+  A balcony can become a tiny oasis.
+  A yard can become a wildlife corridor.
+  And 40 acres can become a restoration project.
+  <br /><br />
+  Habitat Builder is for Tucson's many different spaces, people, and possibilities.
+  <br /><br />
+  You don't need a big yard to make a difference.
+  Start with what you have, and discover what could grow there.
+</p>
 
 <Link
   href="/habitat-builder"
