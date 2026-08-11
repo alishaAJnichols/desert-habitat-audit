@@ -9,8 +9,8 @@ export default function Home() {
         </p>
 
         <h1 className="text-6xl font-bold mt-6">
-          🌵 Desert Habitat Audit
-        </h1>
+  🌵 Habitat Builder
+</h1>
 
         <p className="text-xl mt-8 max-w-3xl mx-auto text-stone-600 leading-relaxed">
           Helping every yard become part of the Sonoran Desert ecosystem.
